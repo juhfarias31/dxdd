@@ -5,19 +5,18 @@
 <script src="./js/JavaScript.js"></script>
 </head>
 
-<body>
+<body onload="carregar()">
 <div class="Div1">
 
 <h2>Drag and Drop</h2>
 <p>Arraste o elemento certo de acordo com sua sombra.</p>
 
-<div class="Div2" onclick="aleatorio()" ondragover="allowDrop(event)">
+<div class="Div2" ondrop="aleatorio()" ondragover="allowDrop(event)">
 
-</div>
-
-<div class="Div3" ondrop="drop(event)" ondragover="allowDrop(event)">
     
 </div>
+
+<div class="Div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 <br>
 <br>

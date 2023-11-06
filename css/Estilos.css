@@ -10,9 +10,10 @@
 }
 
 .Div2 {
+    background-color:white;
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 10px;
     padding: 10px;
     border: 2px solid black;
@@ -20,8 +21,8 @@
 
 .Div3 {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin: 10px;
     padding: 10px;
     border: 2px solid black;

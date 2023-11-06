@@ -19,6 +19,12 @@ function rand(min, max) {
 }
   
 function aleatorio(){
-  var num = rand(1,8); alert(num);
-  alert(num);
+  var num = rand(0,7); alert(num);
+  return num
+}
+
+function carregar(){
+  let imagens = ["BobSombra","GarySombra","MoluscoSombra","PanktonSombra","PatrickSombra","PerolaSombra","SandySombra","SirigueijoSombra"]
+
+  document.querySelector('.Div2').innerHTML = `<img src="img/${imagens[aleatorio()]}.png" height="100px">`
 }
